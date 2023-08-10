@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body,
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+/* topsection */
+#topsec {
+  display: flex;
+
+  margin: 60px;
+}
+
+/* #topright::before{
+content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/one.jpg");
+  background-size: cover;
+  z-index: -1;
+} */
+#one {
+  background: no-repeat center center/cover;
+  height: 550px;
+  width: 450px;
+}
+#topleft {
+  margin: 48px;
+}
+#topright {
+  margin: 45px;
+}
+#logo {
+  height: 150px;
+  width: 150px;
+  grid-area: logo;
+}
+#maincontent {
+  grid-area: main;
+}
+#topheading {
+  margin: 10px;
+  font-size: 48px;
+  color: #36454f;
+  margin-left: 0;
+  margin-right: 60px;
+  margin-top: 60px;
+}
+#toptext {
+  font-size: 20px;
+  color: #71797e;
+  line-height: 1.5;
+  margin-right: 298px;
+  padding-top: 15px;
+}
+button {
+  border-radius: 10px;
+  color: white;
+  background-color: #36454f;
+  padding: 14px 24px;
+  border: 0px;
+  margin: 10px;
+  font-size: 20px;
+  margin-left: 0px;
+  margin-top: 15px;
+}
+button:hover {
+  background-color: #71797e;
+}
+/* bottomsection */
+#bottom{
+    
+    background-color: #D3D3D3;
+    border-color: #D3D3D3;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; padding:  5px 20px;
+
+}
+.size{
+    height:323px;
+    width:300px;
+    object-fit: cover;
+
+}
+#bottomheading{
+    font-size: 40px;
+    text-align: center;
+    color: #36454f;
+}
+
+#bottomsect{
+    background-color: white;
+    margin: 90px;
+   display: grid;
+   grid-template-columns: repeat(3, 33.33%);
+   grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "bottomheading bottomheading bottomheading "
+    "img1 p1 img2"
+    "p2 img3 p3";
+    align-items: center;
+    gap: 20px;
+}
+.sechead{
+    color: #36454f;
+    font-weight: 900;
+    padding: 34px;
+}
+.para{
+    color: #71797e;
+    padding: 34px;
+    padding-top: 10px;
+   
+}
+#bottomheading{
+grid-area: bottomheading;
+}
+#img1{
+    grid-area: img1;
+margin-left: 95px;
+}
+#img2{
+    grid-area: img2;
+  
+}
+#img3{
+    grid-area: img3;
+    
+}
+.p1{
+    grid-area: p1;
+   
+}
+.p2{  grid-area: p2;
+   
+}
+.p3{  grid-area: p3;
+    margin-left: -105px;
+    margin-right: 85px;
+}
+#logo1{
+    height: 150px;
+    width: 150px;
+}
+#footer p{
+    color: #71797e;
+    font-size: 10px;
+    padding: 20px;
+
+}
+#footer{
+    text-align: center;
+}
